@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  color: #111827;
+  background-color: #020a1c;
+  padding: 20px;
+}
+
+.invoice-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+}
+
+header {
+  padding: 20px 30px;
+  background-color: #c397f0;
+  color: white;
+}
+
+.invoice-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invoice-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.invoice-number {
+  text-align: right;
+  font-size: 16px;
+}
+
+.invoice-number span {
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+main {
+  padding: 30px;
+}
+
+section h2 {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #c397f0;
+}
+
+/* Simplified Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  border: 1px solid #c397f0;
+}
+
+td, th {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #c397f0;
+}
+
+th {
+  background-color: #c397f0;
+  color: white;
+  font-weight: 600;
+}
+
+/* Company Section */
+.company-info h3 {
+  color: #c397f0;
+  margin-bottom: 5px;
+}
+
+.company-info p {
+  margin: 2px 0;
+  color: #4B5563;
+}
+
+.company-fiscal {
+  background-color: #F3F4F6;
+  text-align: right;
+  vertical-align: top;
+}
+
+/* Client Section */
+.table-client td:first-child,
+.table-client td:nth-child(3) {
+  background-color: #F3F4F6;
+  width: 20%;
+}
+
+/* Product Table Details */
+.table-products th {
+  text-align: center;
+}
+
+.table-products tfoot {
+  background-color: #F3F4F6;
+  font-weight: 600;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.total-amount {
+  font-size: 18px;
+  color: #c397f0;
+  font-weight: 700;
+}
+
+.invoice-notes {
+  vertical-align: top;
+}
+
+.invoice-notes p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #4B5563;
+}
+
+/* Additional Info */
+.table-additional h3 {
+  margin-bottom: 10px;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.payment-info p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
